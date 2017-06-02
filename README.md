@@ -30,7 +30,7 @@ There is a blog that introduces this module. The title of it is '[Google Map As 
 
 To Get Started
 --------------
-For Bower users, 
+For Bower users: 
 
   `$ bower install ngmap`
 
@@ -54,9 +54,13 @@ To get the map instance use the `NgMap.getMap()` function
       });
     });
 
-For npm users, 
+For npm users: 
 
   `$ npm install ngmap`
+
+Webpack users should import the below file:
+
+   `import 'ngmap/build/scripts/ng-map.no-dependency';`
 
 For meteor users: https://atmospherejs.com/wormy/angularjs-google-maps
 
